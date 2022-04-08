@@ -7,83 +7,164 @@
         <meta name="keywords" content="automation, gamification, chat bots, salebot, autopilot, senler, online school" >
         <meta name="description" content="Тех. специалист Александра Аверкина. Автоиатизация, геймификация, чат-боты в ВК и мессенджерах" >
         <title>Автоматизация и чат-боты</title>
+        <style>
+            .container {
+                max-width: 850px;
+                margin: auto;
+                background: rgb(243, 243, 243);
+                border: 5px solid #00BFFF;
+                border-radius: 10px;
+            }
+
+            .avatar {
+                width: 200px;
+                border-radius: 25px;
+                box-shadow: 4px 4px 15px rgb(0, 0, 0, 0.40);
+                /* margin: 40px 40px 0 40px ; */
+            }
+
+            .inform {
+                margin: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .card-1 {
+                margin: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .card-2 {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            .card-2 h2 {
+                text-align: center;
+            }
+
+            .card-3 {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            .circle {
+                margin: 20px;
+            }
+
+            .inform h1 {
+               line-height: 40px;
+               margin-left: 70px;
+               margin-right: 70px;
+               border-bottom: 2px solid blueviolet;
+            }
+
+
+        </style>
+        <link rel="stylesheet" href="01_selectors.css">
+        <link rel="stylesheet" href="02_fonts.css">
+        <link rel="stylesheet" href="03_colors.css">
+        <link rel="stylesheet" href="04_borders.css">
+        <link rel="stylesheet" href="06_buttons.css">
+        <link rel="stylesheet" href="07_tables.css">
+        <link rel="stylesheet" href="08_display.css">
+        <link rel="stylesheet" href="09_media.css">
     </head>
     <body>
 
-        <img src="я.jpg" width="200" alt="Моя фотка">
+        <div class="container">
 
-        <h1>Александра Аверкина</h1> 
+            <div class="inform">
+                <img src="я.jpg" alt="Моя фотка"; class="avatar">
+                
+                <h1>Александра Аверкина</h1> 
+                <p class="proff">Я - <strong>автоматизатор</strong></p> 
+                <p>Создаю <strong>чат-ботов</strong>, автоматизирую <strong>марафоны, вебинарные воронки, курсы, магазины</strong>.</p> 
+                <p>Делаю <strong>геймификацию</strong>. Настраиваю <strong>партнёрки</strong> и автоматизирую <strong>приём платежей</strong>.</p>
 
-        <p>Я - <strong>автоматизатор</strong>. <br>Создаю <strong>чат-ботов</strong>, автоматизирую <strong>марафоны, вебинарные воронки, курсы, магазины</strong>. <br> Делаю <strong>геймификацию</strong>. Настраиваю <strong>партнёрки</strong> и автоматизирую <strong>приём платежей</strong>.</p>
+                <p>Я в соц. сетях:
+                    <br>
+                    <br>
+                    <a class="btn" href="https://vk.com/automatizator2020" target="_blank">ВКонтакте</a> | <a class="btn" href="https://t.me/autonature" target="_blank">Телеграм</a>
+                    
+                </p>
 
-        <p>Я люблю <em>путешествовать, играть в компьютерные игры и слушать музыку</em></p>
-
-        <p>Я в соц. сетях:
-            <br>
-            <a href="https://vk.com/automatizator2020" target="_blank">ВКонтакте</a>
-            <br>
-            <a href="https://t.me/autonature" target="_blank">Телеграм</a>
-        </p>
-
-        <h2>Мои хобби</h2>
-
-        <ol>
-            <li>Путешествия</li>
-            <li>Детективы</li>
-            <li>Фантастика</li>
-            <li>Плести фенечки</li>
-        </ol>
-
-        <h2>Опыт работы</h2>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>ООО "Шпунт-Северо-Запад</td>
-                    <td>Техник</td>
-                    <td>2017-2020</td>
-                </tr>
-                <tr>
-                    <td>Арт-фото Сержа Самойлова</td>
-                    <td>Администратор группы ВК</td>
-                    <td>2020-2021</td>
-                </tr>
-                <tr>
-                    <td>Александра Аверкина</td>
-                    <td>Фрилансер. Автоматизатор</td>
-                    <td>2021- наст. время</td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <h2>Связаться со мной</h2>
-        <form>
-            <div>
-                <label for="text">Ваше имя:</label>
-                <input type="text" id="text" placeholder="Введите ваше имя">
             </div>
-            <br>
-            <div>
-                <label for="email">Ваш email:</label>
-                <input type="email" id="email" placeholder="Введите ваш email">
-            </div>
-            <br>
-            <div>
-                <label for="message">Ваше сообщение:</label>
-                <br>
-                <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
-            </div>
-            <br>
-            <button type="submit">Отправить</button>
-        </form>
 
+            <div class="circle"></div>
+
+            <div class="card-1">
+                <h2>Мои хобби</h2> 
+    
+                <ol class="list">
+                    <li>Путешествия</li>
+                    <li>Детективы</li>
+                    <li>Фантастика</li>
+                    <li>Плести фенечки</li>
+                </ol>
+            </div>
+
+            <div class="circle"></div>
+
+            <div class="card-2">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ООО "Шпунт-Северо-Запад"</td>
+                            <td>Техник</td>
+                            <td>2017 - 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Арт-фото Сержа Самойлова</td>
+                            <td>Администратор группы ВК</td>
+                            <td>2020 - 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Александра Аверкина</td>
+                            <td>Фрилансер. Автоматизатор</td>
+                            <td>2021 - наст. время</td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+            </div>
+
+            <div class="circle"></div>
+
+            <div class="card-3">
+                <form class="form">
+                    <h2>Связаться со мной</h2>
+    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="text">Ваше имя:</label>
+                            <input type="text" id="text" placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" placeholder="Введите ваш email">
+                        </div>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="message">Ваше сообщение:</label>
+                        <textarea id="message" cols="30" rows="5" placeholder="Введите ваше сообщение..."></textarea>
+                    </div>
+                    <button class="btn" type="submit">Отправить</button>
+                </form>
+                
+            </div>
+
+        </div>
 
     </body>
 </html>
